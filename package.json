@@ -1,0 +1,31 @@
+{
+  "name": "move-to-sound",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "gulp build && node ./lib/main.js",
+    "build": "gulp build"
+  },
+  "engines": {
+    "node": "5.10.1",
+    "npm": "3.5.2"
+  },
+  "dependencies": {
+    "i2c": "^0.2.3",
+    "async": "^2.5.0",
+    "config": "^1.27.0",
+    "fs-extra": "^4.0.2",
+    "onoff": "^1.1.8",
+    "simplayer": "0.0.8"
+  },
+  "devDependencies": {
+    "@types/async": "^2.0.44",
+    "@types/config": "0.0.33",
+    "@types/fs-extra": "^4.0.2",
+    "@types/onoff": "0.0.27",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.2.2",
+    "typescript": "^2.5.3"
+  }
+}

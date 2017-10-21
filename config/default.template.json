@@ -1,0 +1,17 @@
+{
+  "sounds": [
+    {
+      "path": "/hoge/xxxx.wav",
+      "threshold": 10000
+    },
+    {
+      "path": "/hoge/xxxx.wav",
+      "threshold": 20000
+    },
+    {
+      "path": "/hoge/xxxx.wav",
+      "threshold": 30000
+    }
+  ],
+  "interval": 4
+}
