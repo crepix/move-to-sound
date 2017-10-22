@@ -71,6 +71,10 @@ async.forever((callback) => {
       oldX = x
       oldY = y
       oldZ = z
+      if (x === 0 && y === 0 && z === 0) {
+        // sleep解除
+        sensor.writeBytes(power, [0x00], (error) => {})
+      }
     }).catch((error) => {
       console.log(error)
       // sleep解除
